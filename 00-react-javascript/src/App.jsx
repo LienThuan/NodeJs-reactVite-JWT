@@ -5,7 +5,7 @@ function App() {
   useEffect(() => {
     const fetchhelloworld = async () => {
       const res = await axios.get(`/v1/api/`)
-      console.log("respouse", res)
+      console.log(">>>> check res!: ", res)
   }
   fetchhelloworld()
 }, [])
